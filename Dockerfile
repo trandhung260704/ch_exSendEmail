@@ -1,5 +1,4 @@
-FROM tomcat:10.1.17
-
+FROM tomcat:10.1.24
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 COPY *.war /usr/local/tomcat/webapps
